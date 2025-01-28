@@ -1,4 +1,4 @@
-# Domain-Controller-and-Delivery-Controller-Setup-Using-Azure-Cloud
+# Domain-Controller-and-Delivery-Controller-Setup-Using-Azure-Cloud 
 
 ### Overview:
 This lab involved setting up a Domain Controller (DC) and a Delivery Controller (DDC) using Windows Server 2022 virtual machines on Azure Cloud. The goal was to configure and test Active Directory Domain Services (ADDS), DNS, and DHCP while ensuring secure communication between the two machines. This project demonstrates my ability to deploy and manage enterprise-level infrastructure in a cloud environment.
@@ -8,9 +8,9 @@ This lab involved setting up a Domain Controller (DC) and a Delivery Controller 
 2.	Set up a Delivery Controller to join the custom domain and authenticate domain users.
 3.	Configure and test key services: Active Directory, DHCP, and DNS.
 4.	Validate successful communication between the DC and DDC virtual machines.
-
  
-### Steps Taken:
+### Lab Screenshots 👉🏻 : [Link](https://github.com/Hardik9791/Domain-Controller-and-Delivery-Controller-Setup-Using-Azure-Cloud/blob/main/Screenshots.pdf)
+
 ### Step 1: Setting Up the Domain Controller (DC)
 **1.	Provisioning the VM:**
 -	Deployed a Windows Server 2022 Datacenter VM in Azure.
@@ -54,8 +54,6 @@ This lab involved setting up a Domain Controller (DC) and a Delivery Controller 
 **4.	Testing DNS:**
 -	Configured DNS settings to resolve queries within the Dc.com domain.
 -	Tested DNS functionality to ensure proper domain name resolution.
-
-### Lab Work 👉🏻 : Link(https://github.com/user-attachments/assets/78a3b6e7-6751-41ed-aacd-033a323c72dd)
 
  
 ### Challenges and Solutions:
