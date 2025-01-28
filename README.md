@@ -8,11 +8,10 @@ This lab involved setting up a Domain Controller (DC) and a Delivery Controller 
 2.	Set up a Delivery Controller to join the custom domain and authenticate domain users.
 3.	Configure and test key services: Active Directory, DHCP, and DNS.
 4.	Validate successful communication between the DC and DDC virtual machines.
-   
-### Lab Screenshots: 
+
  
 ### Steps Taken:
-##### Step 1: Setting Up the Domain Controller (DC)
+### Step 1: Setting Up the Domain Controller (DC)
 **1.	Provisioning the VM:**
 -	Deployed a Windows Server 2022 Datacenter VM in Azure.
 - Assigned the VM a static private IP address (10.0.0.4).
@@ -28,7 +27,7 @@ This lab involved setting up a Domain Controller (DC) and a Delivery Controller 
 -	Activated the DHCP configuration and verified IP address assignment.
 
 
-#### Step 2: Setting Up the Delivery Controller (DDC)
+### Step 2: Setting Up the Delivery Controller (DDC)
 
 **1.	Provisioning the VM:**
 -	Deployed a second Windows Server 2022 Datacenter VM in Azure.
@@ -39,7 +38,7 @@ This lab involved setting up a Domain Controller (DC) and a Delivery Controller 
 -	Changed the DNS settings on the DDC to point to the DC’s private IP.
 -	Joined the Dc.com domain using domain administrator credentials.
 
-#### Step 3: Configuring Organizational Units (OUs) and Users
+### Step 3: Configuring Organizational Units (OUs) and Users
 
 **1.	Creating OUs:**
 -	Created three Organizational Units (OUs) in Active Directory: HR, Workstations, and Admin Users.
@@ -56,7 +55,7 @@ This lab involved setting up a Domain Controller (DC) and a Delivery Controller 
 -	Configured DNS settings to resolve queries within the Dc.com domain.
 -	Tested DNS functionality to ensure proper domain name resolution.
 
-
+### Lab Work 👉🏻 : Link(https://github.com/user-attachments/assets/78a3b6e7-6751-41ed-aacd-033a323c72dd)
 
  
 ### Challenges and Solutions:
